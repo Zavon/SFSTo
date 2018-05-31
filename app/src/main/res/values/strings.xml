@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SFST</string>
+    <string name="title_hgn">HGN</string>
+    <string name="title_ols">OLS</string>
+    <string name="title_wat">WAT</string>
+    <string name="instructions_hgn">1. I am going to check your eyes.\n\n2. Keep your head still and follow the stimulus with your eyes only.\n\n3. Do not move your head.\n\n4. Do you understand the instructions?</string>
+    <string name="instructions_ols">1. Stand with your heels together and your arms at your side.\n\n2. Do not begin until I tell you to.\n\n3. Do you understand?\n\n4. When I tell you, I want you to raise one leg,
+        either leg, approximately six inches off the ground, foot pointed out. Keep both legs straight and keep your eyes on the elevated foot.\n\n5. While holding that position, count out loud; one thousand and one,
+        one thousand and two, one thousand and three, and so forth until told to stop.\n\n6. Do you understand the instructions?\n\n7. You may begin the test.</string>
+    <string name="instructions_wat">1. Put your left foot on the line and put your right foot in front of it with your right heel touching your left toe. Keep your hands at your side.
+        \n\n2.Do not start until I tell you to.\n\n3. Do you understand the directions?\n\n4. When I tell you to begin, take nine heel to toe steps on the line, turn around keeping one foot
+        on the line, and return nine heel to toe steps.\n\n5. On the ninth step, keep the front foot on the line and turn by taking several small steps with the other foot.\n\n6. While
+        walking, watch your feet at all times, keep arms at side, count steps out loud. Once you begin, do not stop until test is completed.\n\n7. Do you understand the instructions?\n\n8. You may begin the test</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pick_date">date</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

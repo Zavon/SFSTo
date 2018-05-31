@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hgn"
+        android:icon="@drawable/ic_hgn_24dp"
+        android:title="@string/title_hgn" />
+
+    <item
+        android:id="@+id/navigation_wat"
+        android:icon="@drawable/ic_wat_24dp"
+        android:title="@string/title_wat" />
+
+    <item
+        android:id="@+id/navigation_ols"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_ols" />
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/ic_report_24dp"
+        android:title="Report"/>
+
+</menu>
