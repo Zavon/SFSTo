@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ReportFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_hgn"
+        android:textSize="20sp"/>
+    <CheckBox android:id="@+id/checkbox_smoothPursuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/smoothPursuit"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_distinct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/distinct"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_priorTo45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/priorTo45"
+        android:onClick="onCheckboxClicked"/>
 
 
-</FrameLayout>
+</LinearLayout>

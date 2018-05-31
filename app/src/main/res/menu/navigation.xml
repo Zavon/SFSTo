@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/navigation_hgn"
         android:icon="@drawable/ic_hgn_24dp"
-        android:title="@string/title_hgn" />
+        android:title="@string/title_hgn"
+        app:showAsAction="always|withText"/>
 
     <item
         android:id="@+id/navigation_wat"
         android:icon="@drawable/ic_wat_24dp"
-        android:title="@string/title_wat" />
+        android:title="@string/title_wat"
+        app:showAsAction="always|withText"/>
 
     <item
         android:id="@+id/navigation_ols"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/title_ols" />
+        android:title="@string/title_ols"
+        app:showAsAction="always|withText"/>
     <item
         android:id="@+id/navigation_report"
         android:icon="@drawable/ic_report_24dp"
-        android:title="Report"/>
+        android:title="@string/title_report"
+        app:showAsAction="always|withText"/>
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_info_24dp"
+        android:title="@string/title_about"
+        app:showAsAction="always|withText"/>
+
 
 </menu>
