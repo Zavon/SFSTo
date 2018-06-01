@@ -22,4 +22,14 @@
     <string name="smoothPursuit">Lack of Smooth Pursuit</string>
     <string name="distinct">Distinct and Sustained Nystagmus at Maximum Deviation</string>
     <string name="priorTo45">Onset Prior to 45 degrees</string>
+
+    <!-- About Strings -->
+    <string name="version_header">Version</string>
+    <string name="version">\t1.0</string>
+    <string name="developerHeader">Developer</string>
+    <string name="developer">\tZavon</string>
+    <string name="sourceHeader">Source</string>
+    <string name="source">\thttps://github.com/zavon/SFST</string>
+    <string name="contactHeader">Contact</string>
+    <string name="contact">\tzavon@zavon.org</string>
 </resources>
