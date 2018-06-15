@@ -1,31 +1,159 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
     tools:context=".ReportFragment">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title_hgn"
-        android:textSize="20sp"/>
-    <CheckBox android:id="@+id/checkbox_smoothPursuit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/smoothPursuit"
-        android:onClick="onCheckboxClicked"/>
-    <CheckBox android:id="@+id/checkbox_distinct"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/distinct"
-        android:onClick="onCheckboxClicked"/>
-    <CheckBox android:id="@+id/checkbox_priorTo45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/priorTo45"
-        android:onClick="onCheckboxClicked"/>
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Offender"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/offender"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_hgn"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_smoothPursuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/smoothPursuit" />
+
+        <CheckBox
+            android:id="@+id/checkbox_distinct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/distinct" />
+
+        <CheckBox
+            android:id="@+id/checkbox_priorTo45"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/priorTo45" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_wat"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_tooSoon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/tooSoon" />
+
+        <CheckBox
+            android:id="@+id/checkbox_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/balance" />
+
+        <CheckBox
+            android:id="@+id/checkbox_stops"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/stops" />
+
+        <CheckBox
+            android:id="@+id/checkbox_misses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/misses" />
+
+        <CheckBox
+            android:id="@+id/checkbox_abalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/misses" />
+
+        <CheckBox
+            android:id="@+id/offLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/offLine" />
+
+        <CheckBox
+            android:id="@+id/checkbox_turn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/turn" />
+
+        <CheckBox
+            android:id="@+id/checkbox_numberOfStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/numberOfStep" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_ols"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_swaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/swaying" />
+
+        <CheckBox
+            android:id="@+id/checkbox_obalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/oBalance" />
+
+        <CheckBox
+            android:id="@+id/checkbox_hopping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/hop" />
+
+        <CheckBox
+            android:id="@+id/checkbox_footDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/footDown" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Report" />
 
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

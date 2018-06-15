@@ -19,9 +19,28 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Report Strings -->
+    <string name="phase">Phase</string>
+    <!-- HGN -->
     <string name="smoothPursuit">Lack of Smooth Pursuit</string>
     <string name="distinct">Distinct and Sustained Nystagmus at Maximum Deviation</string>
     <string name="priorTo45">Onset Prior to 45 degrees</string>
+
+    <!-- WAT -->
+    <string name="balance">Cannot keep balance</string>
+    <string name="tooSoon">Starts too soon</string>
+    <string name="stops">Stops while walking</string>
+    <string name="misses">Misses heel to toe</string>
+    <string name="offLine">Steps off line</string>
+    <string name="turn">Improper turn</string>
+    <string name="numberOfStep">Wrong number of steps</string>
+
+    <!-- OLS -->
+    <string name="swaying">Swaying</string>
+    <string name="oBalance">Uses arms to balance</string>
+    <string name="hop">Hopping</string>
+    <string name="footDown">Puts foot down</string>
+
+
 
     <!-- About Strings -->
     <string name="version_header">Version</string>
