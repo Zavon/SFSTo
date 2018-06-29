@@ -63,9 +63,9 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_ols:
                     selectedFragment = OLS.newInstance();
                     break;
-                case R.id.navigation_report:
+/*                case R.id.navigation_report:
                     selectedFragment = ReportFragment.newInstance();
-                    break;
+                    break;*/
                 case R.id.navigation_about:
                     selectedFragment = aboutFragment.newInstance();
                     break;
@@ -84,7 +84,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        b = (Button) findViewById(R.id.button);
+
+        /*b = (Button) findViewById(R.id.button);
 
         //New File Path
         path = Environment.getExternalStorageDirectory().getAbsolutePath() + "/SFST/Reports";
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-        });
+        });*/
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         BottomNavigationViewHelper.removeShiftMode(navigation);
@@ -112,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         transaction.commit();
     }
 
-    public void createPDF() throws FileNotFoundException, DocumentException {
+/*    public void createPDF() throws FileNotFoundException, DocumentException {
 
         //create document file
         Document doc = new Document();
@@ -153,5 +154,5 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-    }
+    }*/
 }
